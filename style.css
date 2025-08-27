@@ -1,0 +1,109 @@
+body {
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tit{
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background: #D556FF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    display: inline;
+    padding-right: 35px;
+}
+
+a {
+    font-size: 15px;
+    color: rgba(0, 51, 111, 1);
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+a:hover {
+    color: rgba(8, 122, 255, 1)
+}
+
+section {
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    background: rgba(209, 71, 71, 1);
+    border: 1px solid black;
+    margin-bottom: 30px;/*
+    background-image: url('/Media/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    border-radius: 7px;
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: 0 0 10px 5px #000;
+    }
+    
+    40% {
+        box-shadow: 0 0 10px #4A4A4A;
+    }
+    
+    80% {
+        box-shadow: 0 0 10px #8C8C8C;
+    }
+    
+    100% {
+        box-shadow: 0 0 10px 5px #000;
+    }
+}
+
+.init {
+    margin-top: 60px;
+}
+
+div{
+    background: rgba(148, 154, 225, 1);
+    width: 100%;
+    height: 300px;
+    margin-top: 400px;
+    padding: 10px;
+}
+
+section:hover > div{
+    transition: .6s;
+    margin-top: 80px;
+}
+
+.init{
+    background-image: url('mario.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lucky{
+    background-image: url('lucky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.khalifa {
+    background-image: url('khalifa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*zootecnia*/
